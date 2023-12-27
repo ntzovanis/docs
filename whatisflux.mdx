@@ -1,0 +1,129 @@
+---
+type: page
+title: What is Flux?
+listed: true
+slug: what-is-flux---draft-
+description: Discover Flux, a browser-based electronics design tool that simplifies hardware development with built-in reusability, collaboration, and simulation. Transform your ideas into functional circuits effortlessly.
+index_title: What is Flux?
+hidden: 
+keywords: 
+---published
+
+Go 10x faster from idea to PCB by reducing busy work, never starting from scratch, and keeping your team in sync.
+
+$plugin[{
+    "type": "video",
+    "data": {
+        "videoId": "xPW6KDfCIeo",
+        "provider": "youtube"
+    }
+}]$
+
+As a fully browser-based tool, all you need to access the full development environment is a computer and an internet connection. This makes it easier than ever to build parts, projects, and ideas with others. Additionally, with Flux’s built-in version control, you can embrace the rapid development process without worrying about lost work.
+
+## The Flux Method
+
+Flux is based on three core principles: promoting re-usability, fostering collaboration, and keeping you focused. **Reusability can amplify the impact of individuals and organizations**. Leverage the work of others in the community by using templates, modules or example projects. 
+
+**Building hardware often requires collaboration** with teammates, clients, manufacturers, and other stakeholders. Flux facilitates seamless, browser-based collaboration with controlled permissions and automated version control. 
+
+**Reducing distractions and repetitive tasks can keep you in the flow** and help you achieve better results. Flux integrates key workflows into one app to keep you in the flow and reduce distractions. Including schematic and PCB editors, an AI assistant, and a built-in SPICE simulator. 
+
+Read our [Flux Method](/Introduction/the-flux-method) page to learn more about how Flux can improve your PCB design workflow.
+
+## The Flux Model
+
+Gain a basic understanding of Flux's design so you can get up and running more effectively.
+
+### Basic Model
+
+#### Parts
+
+Parts are the primary building block of PCB designs. Each individual part represents a unique component on your PCB, such as a resistor, capacitor, or integrated circuit (IC). In Flux, parts generally work the same way as they do in other EDA tools, but there are a few key differences you need to be aware of:
+
+- Every part has a schematic and potentially a symbol, simulator model, or PCB layout (footprint). That is to say, footprints and symbols don't exist independently of parts. They're a single package
+- Unlike most other tools, parts in Flux have an internal schematic _and_ a symbol. This will make more sense when you get familiar with the concept of modules. 
+
+#### Modules
+
+$plugin[{
+    "type": "synced-block",
+    "data": {
+        "syncedBlockId": "sublayout"
+    }
+}]$
+
+Learn more about modules in this [tutorial](/tutorials/tutorial-parts-and-sublayouts).
+
+$plugin[{
+    "type": "image",
+    "data": {
+        "url": "https:\/\/uploads.developerhub.io\/prod\/86Yw\/jfmkgkdtq34d75yx1ufdi8tbkd7spu94iya5b4s4o0zfap3g7vh1fbqi0uqr9xci.png",
+        "mode": "600",
+        "width": 3526,
+        "height": 2054,
+        "caption": null
+    }
+}]$
+
+#### Library
+
+Flux uses a single, unified library of parts. In the library, you'll find thousands of parts made by the community so you can avoid the hassle of having to create your own parts. If you do need to create your own parts, those will also show up in the library, and you can decide whether to share them with the rest of the community or not.
+
+If you need to add parts to the library, follow this [tutorial.](/tutorials/tutorial-add-part-library)
+
+$plugin[{
+    "type": "image",
+    "data": {
+        "url": "https:\/\/uploads.developerhub.io\/prod\/86Yw\/ubvo4v3r33g9yesqe9o3lrwjn6gpda75rglzli5fv1ky1trxune96zb1zow8gqyr.png",
+        "mode": "600",
+        "width": 2539,
+        "height": 1499,
+        "caption": null
+    }
+}]$
+
+#### Layout Rules
+
+PCB design rules are used to configure your layout and routing tools and to set limits on what you can do in the layout. Flux takes design rules and uses them as a design tool. Instead of checking to ensure your design adheres to manufacturability standards after it’s completed, Flux enforces design rules automatically as they are created. You can design your board using tools that ensure you can't even make these mistakes in the first place.
+
+Learn to design with Flux rules in this [tutorial.](/tutorials/tutorial-layout-rules-deep-dive)
+
+### AI Hardware Assistant - Flux Copilot
+
+$plugin[{
+    "type": "synced-block",
+    "data": {
+        "syncedBlockId": "copilot"
+    }
+}]$
+
+Read more about how Copilot can improve your design process in this [tutorial.](/tutorials/ai-for-hardware-design)
+
+$plugin[{
+    "type": "image",
+    "data": {
+        "url": "https:\/\/uploads.developerhub.io\/prod\/86Yw\/ktnmeg2dqz7qgv24k1pd3ymns6bw2y71xcrhdtofml5zythfyq0bbrqgh1n75asz.png",
+        "mode": "600",
+        "width": 3050,
+        "height": 1787,
+        "caption": null
+    }
+}]$
+
+### Simulator
+
+Simulations are a fundamental tool for evaluating circuit designs. Some simulation packages can be complex, involving multiple setup steps or unique syntax that takes time to learn. The circuit simulation engine in Flux consists of an online LTSpice simulator engine that runs as you build the design.
+
+Learn more about how the built-in simulator works in this [deep dive.](/tutorials/the-simulator)
+
+## Help and Tutorials
+
+These are some tips for how to navigate our documentation page and access other resources.
+
+- [First project in Flux](/Introduction/flux-walkthrough-project) The quickest way to jump into Flux and get started on a project.
+- [auto$](/tutorials/flux-tutorials): In-depth tutorials about how to use Flux.
+- [Reference](/reference/api-overview): Find detailed information about the elements of Flux.
+- [YouTube](https://www.youtube.com/channel/UC5CsglCHQBd4-WFrZmqzVyw): Video example projects and tutorials all in Flux.
+- [Slack](https://join.slack.com/t/fluxcommunity/shared_invite/zt-1czv0ryba-ojPHHcxoYqSzZ_3Y40bxnw): Join our community of engineers, contractors, and hobbyists using Flux.
+
