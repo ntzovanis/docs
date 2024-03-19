@@ -1,8 +1,9 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Flux Documentation",
   "logo": {
     "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -23,31 +24,56 @@
     "name": "Flux App",
     "url": "https://flux.ai/signin"
   },
+
+  "primaryTab": {
+    "name": "Introduction"
+  },
+
   "tabs": [
+    {
+      "name": "Tutorials",
+      "url": "tutorials"
+    },
     {
       "name": "Reference",
       "url": "reference"
+    },
+    {
+      "name": "FAQ",
+      "url": "faq"
+    },
+    {
+      "name": "Legal",
+      "url": "legal"
     }
   ],
   "anchors": [
     {
       "name": "Community",
       "icon": "slack",
-      "url": "fluxcommunity.slack.com"
+      "url": "http://fluxcommunity.slack.com"
     }
   ],
   "navigation": [
     {
-      "group": "Introduction",
-      "pages": ["thefluxmethod", "whatisflux"]
+      "group": "Welcome",
+      "pages": ["welcome"]
     },
     {
-      "group": "Tutorials",
-      "pages": ["tutorials/code"]
+      "group": "About Flux",
+      "pages": ["introduction/thefluxmethod", "introduction/whatisflux"]
     },
     {
-      "group": "FAQs",
-      "pages": ["FAQs/introduction"]
+      "group": "First project in Flux",
+      "pages": ["introduction/firstproject"]
+    },
+    {
+      "group": "Set Up Flux",
+      "pages": ["introduction/setupflux"]
+    },
+    {
+      "group": "Migration Guides",
+      "pages": ["introduction/migrationguides"]
     }
   ],
   "footerSocials": {
@@ -55,11 +81,8 @@
     "github": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   },
-
   "modeToggle": {
     "default": "dark",
     "isHidden": true
   }
-
-
 }
