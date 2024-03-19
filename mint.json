@@ -31,22 +31,11 @@
 
   "tabs": [
     {
-      "name": "Tutorials",
+      "name": "WTF",
       "url": "tutorials"
-    },
-    {
-      "name": "Reference",
-      "url": "reference"
-    },
-    {
-      "name": "FAQ",
-      "url": "faq"
-    },
-    {
-      "name": "Legal",
-      "url": "legal"
     }
   ],
+  
   "anchors": [
     {
       "name": "Community",
