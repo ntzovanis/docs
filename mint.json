@@ -52,7 +52,7 @@
       "pages": ["introduction","thefluxmethod"]
     },
     {
-      "group": "Browser Setup",
+      "group": "Flux Setup",
       "pages": ["introduction/setupflux/createaccount","introduction/setupflux/gethelp",
             {
               "group": "Setup Browser",
@@ -62,7 +62,7 @@
     },
     {
       "group": "Getting Started in Flux",
-      "pages": ["introduction/firstproject","introduction/projectsetup","introduction/schematic","introduction/layout","introduction/manufacturing"]
+      "pages": ["introduction/first-project-flux/project-setup","introduction/first-project-flux/collaboration"]
     },
     {
       "group": "Migration Guides",
